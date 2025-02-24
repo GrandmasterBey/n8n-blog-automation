@@ -1,0 +1,21 @@
+title: SEO Blog
+description: Automated SEO content and insights
+author: GrandmasterBey
+baseurl: "/n8n-blog-automation"
+url: "https://grandmasterbey.github.io"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Default layout for posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "GrandmasterBey"
